@@ -12,7 +12,7 @@ module JVMArgs
        
     def to_s
       if @value
-        "-#{@key}"
+        "-J-#{@key}"
       else
         ""
       end

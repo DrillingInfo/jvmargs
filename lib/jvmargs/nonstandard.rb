@@ -19,7 +19,7 @@ module JVMArgs
     end
     
     def to_s
-      "-#{@key}#{@value}"
+      "-J-#{@key}#{@value}"
     end
   end
 end
